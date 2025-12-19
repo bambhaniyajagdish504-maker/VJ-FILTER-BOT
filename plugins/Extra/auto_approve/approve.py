@@ -95,7 +95,7 @@ async def auto_approve(client, message: ChatJoinRequest):
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
             reply_markup = InlineKeyboardMarkup(buttons)
-            m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+            m=await message.reply_sticker("CAACAgIAAxkBAAK6a2lFiYRGXhZWUnbyoNmawLFzXJMmAAJvPQACSgThSVvFRwJ3swa3NgQ") 
             await asyncio.sleep(1)
             await m.delete()
             await message.reply_photo(

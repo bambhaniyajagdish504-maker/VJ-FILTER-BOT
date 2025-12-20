@@ -2216,8 +2216,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "ytdl":
-        ....
-        ....
+        
     elif query.data == "share":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
@@ -2235,8 +2234,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "song":
-        ....
-        ....
+        
     elif query.data == "json":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
@@ -3233,5 +3231,6 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
+
 
 

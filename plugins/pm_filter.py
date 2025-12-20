@@ -2215,7 +2215,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "ytdl":
+
+#elif query.data == "ytdl":
         
     elif query.data == "share":
         btn = [[
@@ -2233,7 +2234,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "song":
+
+#elif query.data == "song":
         
     elif query.data == "json":
         buttons = [[
@@ -3231,6 +3233,7 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
+
 
 
 

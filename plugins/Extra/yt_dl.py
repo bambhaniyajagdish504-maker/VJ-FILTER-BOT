@@ -1,7 +1,5 @@
-# Don't Remove Credit @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
+# DISABLED FEATURE
+return
 
 from __future__ import unicode_literals
 
